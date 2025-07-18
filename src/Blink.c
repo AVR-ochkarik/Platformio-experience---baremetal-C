@@ -2,7 +2,7 @@
 #include <util/delay.h>
 
 int main(void){
-    DDRB |= (1 << PB0);
+    DDRB |= (1 << DDB0);
     while(1){
         PORTB ^= (1 << PB0);
         _delay_ms(500);
