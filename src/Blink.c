@@ -5,6 +5,6 @@ int main(void){
     DDRB |= (1 << DDB0);
     while(1){
         PORTB ^= (1 << PORTB0);
-        _delay_ms(500);
+        _delay_ms(50);
     }
 }
